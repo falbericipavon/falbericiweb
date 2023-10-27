@@ -444,6 +444,10 @@ element.style {
   color: white !important;
 }
 
+.d-inlblock {
+  display: inline-block !important;
+}
+
 /*-----------------RESPONSIVE ----------------*/
 
 @media only screen and (max-width: 1209px) {
@@ -471,10 +475,6 @@ element.style {
   .text-ind {
     font-size: 17px;
     margin-top: 1.5rem;
-  }
-
-  .d-inlblock {
-    display: inline-block !important;
   }
 
   .cont-efec h1 {
