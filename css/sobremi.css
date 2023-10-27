@@ -569,12 +569,12 @@ span {
 .scroll-top {
   position: fixed;
   z-index: 1000;
-  bottom: 1em; 
-  right: 1em; 
-  padding: .3em; 
+  bottom: 1em;
+  right: 1em;
+  padding: .3em;
   background: #b4b4b4b9;
-  box-shadow: rgba(0, 0, 0, .5) 0 1px 2px, rgba(0, 0, 0, .25) 0 1px 7px; 
-  border-radius: 5px; 
+  box-shadow: rgba(0, 0, 0, .5) 0 1px 2px, rgba(0, 0, 0, .25) 0 1px 7px;
+  border-radius: 5px;
 }
 
 .scroll-top svg {
@@ -642,6 +642,14 @@ span {
     background-size: 10%;
     background-position: right;
     margin-bottom: 0 !important;
+  }
+
+  .sobre_h2 {
+    font-size: 30px;
+  }
+
+  .sm_textc {
+    text-align: center;
   }
 
   .navmenu {
@@ -738,9 +746,14 @@ span {
     margin-bottom: 50px !important;
   }
 
+  .mbt40 {
+    margin-bottom: 40px !important;
+    margin-top: 1px !important;
+  }
+
   .lb-dm {
     padding-bottom: 1.5rem;
-    border-bottom: 2px solid #da1846;
+    border-bottom: 1px solid #6c757d;
   }
 
   .lista_sm {

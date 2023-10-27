@@ -459,6 +459,30 @@ element.style {
     display: none;
   }
 
+  .color-red {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .color-red {
+    font-size: 1.3rem;
+  }
+
+  .text-ind {
+    font-size: 17px;
+    margin-top: 1.5rem;
+  }
+
+  .d-inlblock {
+    display: inline-block !important;
+  }
+
+  .cont-efec h1 {
+    font-weight: 800;
+    font-size: 1.3em;
+    line-height: 35px;
+  }
+
   footer {
     display: flex;
     flex-direction: row;

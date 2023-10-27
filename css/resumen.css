@@ -238,7 +238,7 @@ section {
 #idioma {
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.5rem;
   line-height: 35px;
   color: black;
   display: flex;
@@ -251,7 +251,7 @@ section {
 #laboral {
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.5rem;
   line-height: 35px;
   color: black;
   display: flex;
@@ -536,7 +536,12 @@ section {
 
   body {
     background-color: rgb(243 243 243);
+    background-image: none;
     margin-bottom: 0 !important;
+  }
+
+  .titulo_cuatro {
+    width: 8rem; 
   }
 
   .navmenu {

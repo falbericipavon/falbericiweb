@@ -89,6 +89,14 @@ h1 {
   align-items: baseline;
 }
 
+.lg-none {
+  display: none;
+}
+
+.sm-none {
+  display: inline;
+}
+
 .portHover {
   border-bottom: 1px solid #FFFFFF;
 }
@@ -171,6 +179,12 @@ section ul li {
   color: white;
   background: #da1846;
   border-radius: 3px;
+}
+
+.spn-icon {
+  display: block;
+  text-align: center;
+  font-weight: 100;
 }
 
 .div-animado-rapido {
@@ -421,7 +435,11 @@ section ul li.active {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
+  }
+
+  section ul li {
+    margin: 0.9rem;
   }
 
   section li {
@@ -431,11 +449,12 @@ section ul li.active {
   }
 
   section ul li {
-    text-align: center;
+    text-align: center !important;
     list-style: none;
     font-size: 1rem;
     letter-spacing: 1px;
     cursor: pointer;
+    width: 126px;
   }
 
   body {
@@ -448,6 +467,15 @@ section ul li.active {
     display: inline;
     margin-right: 2em;
   }
+
+  .sm-none {
+    display: none;
+  }
+
+  .lg-none {
+    display: inline-block;
+    margin-bottom: 20px;
+}
 
   body {
     background-color: rgb(243 243 243);
