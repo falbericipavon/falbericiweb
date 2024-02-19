@@ -312,7 +312,7 @@ section ul li.active {
   object-fit: contain;
   opacity: 100%;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
 
 .overlay {
@@ -454,7 +454,7 @@ section ul li.active {
     font-size: 1rem;
     letter-spacing: 1px;
     cursor: pointer;
-    width: 120px;
+    width: 126px;
   }
 
   body {
